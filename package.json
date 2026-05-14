@@ -1,0 +1,9 @@
+{
+  "name": "spotify-live-lyrics-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Spicetify extension that exposes Spotify live lyrics to local scripts.",
+  "scripts": {
+    "deploy": "powershell -Command \"Copy-Item -LiteralPath '.\\src\\spotify-live-lyrics-bridge.js' -Destination $env:APPDATA\\spicetify\\Extensions\\spotify-live-lyrics-bridge.js -Force\""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-14T00:05:57.205Z",
+  "track": {
+    "title": "WO???",
+    "artists": [
+      "Patron",
+      "Dardan"
+    ],
+    "album": "WO???",
+    "uri": "spotify:track:6n59qy5X4m45RZevoQU3Yk",
+    "durationMs": 186000
+  },
+  "playback": {
+    "isPlaying": false,
+    "progressMs": 30041,
+    "durationMs": 186000
+  },
+  "lyric": null,
+  "visibleLines": [],
+  "lyricsMeta": {
+    "provider": "spotify-color-lyrics",
+    "syncType": "NONE",
+    "lineCount": 0,
+    "language": "",
+    "error": "Spotify returned no lyrics payload."
+  },
+  "source": "spotify-live-lyrics-bridge"
+}
