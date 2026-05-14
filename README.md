@@ -21,51 +21,12 @@ Spicetify extension that reads Spotify's synced lyrics feed, computes the curren
 py -3 .\bridge\lyrics_bridge_server.py
 ```
 
-2. Deploy the extension:
-
-```powershell
-npm run deploy
-```
-
 3. Enable it in Spicetify:
 
-```powershell
-spicetify config extensions spotify-live-lyrics-bridge.js
-spicetify apply
-```
 
 4. Open Spotify and switch to a song that has synced lyrics.
 
-## Payload shape
 
-```json
-{
-  "timestamp": "2026-05-13T19:23:42.123Z",
-  "track": {
-    "title": "Song Name",
-    "artists": ["Artist"],
-    "album": "Album",
-    "uri": "spotify:track:...",
-    "durationMs": 215000
-  },
-  "playback": {
-    "isPlaying": true,
-    "progressMs": 64218
-  },
-  "lyric": {
-    "text": "current lyric line",
-    "normalized": "current lyric line",
-    "index": 4,
-    "confidence": 0.91
-  },
-  "visibleLines": [
-    "previous line",
-    "current lyric line",
-    "next line"
-  ],
-  "source": "spotify-live-lyrics-bridge"
-}
-```
 
 ## Notes
 
