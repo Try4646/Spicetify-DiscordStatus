@@ -33,3 +33,4 @@ py -3 .\bridge\lyrics_bridge_server.py
 - The extension stores the latest payload in Spicetify LocalStorage under `spotify-live-lyrics-bridge:latest`.
 - The bridge server mirrors the latest payload to `bridge/lyrics-current.json`, which is often the easiest thing for another script to read.
 - The current line is computed from Spotify's synced lyric timestamps, so the lyrics panel does not need to be open.
+- USE ON UR OWN RISK
